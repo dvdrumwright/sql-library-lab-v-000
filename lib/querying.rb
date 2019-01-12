@@ -1,9 +1,9 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT books.title, books.year FROM books ORDER BY DESC(books.series_id); "
+  "SELECT books.title, books.year FROM books ORDER BY DESC(books.year);"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
-  "SELECT characters.name, characters.motto ORDER BY DESC(characters.motto);"
+  ""
 end
 
 
